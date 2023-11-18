@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahendra - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: azure;
+            font-family: 'Lato', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 82px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 24px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: violet;
+        }
+
+        main hr{
+            border: 0;
+            background: orangered;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        nav ul li a:hover {
+            color: blue;
+            font-size: 1.1rem;
+        }
+
+        .left {
+            font-size: 1.3rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+
+
+        }
+
+        .leftSection .buttons{
+            padding: 23px;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: brown;
+        }
+
+        .text-gray{
+            color: gray;
+        }
+
+        #element {
+            color: brown;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .secondSection .box{
+            background: whitesmoke;
+            width: 60vw;
+            height: 2px;
+            margin: 50px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: whitesmoke;
+            margin: 0 120px;
+        }
+
+
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color:rgb(43, 226, 174);
+            width: 150px;
+            font-size: 10px;
+        }
+
+        footer{
+            background-color: #0e0e1a;
+          
+        }
+
+        .footer{
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 223px;
+        }
+
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mahendra's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">
+                    <li>Home</a></li>
+                    <li><a href="/">
+                    <li>About</a></li>
+                    <li><a href="/">
+                    <li>Services</a></li>
+                    <li><a href="/">
+                    <li>Projects</a></li>
+                    <li><a href="/">
+                    <li>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Mahendra Patibandla</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="web.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I have learned so far</span>
+            <h1>Technical Skills</h1>
+
+            <div class="box">
+                <div class="vertical">
+                   
+                    <div class="vertical-title">
+                        HTML and CSS
+                    </div>
+                    <div class="vertical-desc">
+                        "My journey learning HTML and CSS has been an exciting and continuous learning experience. 
+                        These foundational skills have provided me with a solid base to further explore front-end development and design. 
+                        I'm eager to continue evolving as a web developer and applying these skills to create innovative 
+                        and user-centric web experiences."
+                    </div>
+                </div>
+                <div class="vertical">
+                   
+                    <div class="vertical-title">
+                        JavaScript
+                    </div>
+                    <div class="vertical-desc">
+                        "My journey with JavaScript has been an exhilarating learning curve, 
+                        empowering me to craft dynamic and responsive web experiences. 
+                        I am excited to further explore full-stack development, 
+                        harnessing the power of JavaScript to build robust and innovative web applications."
+                    </div>
+                </div>
+                <div class="vertical">
+                    
+                    <div class="vertical-title">
+                        C++ and Python 
+                    </div>
+                    <div class="vertical-desc">
+                        <br>"My journey with C++ has been instrumental in honing my skills in programming logic, OOP concepts, and algorithmic thinking.
+                        It has equipped me to tackle complex problems and develop robust, high-performance applications."</br>
+
+                        <br>"Python has been a transformative language in my programming journey, allowing me to explore a wide array of domains 
+                        from scripting to web development, data science, and machine learning. 
+                        Its simplicity and versatility continue to fuel my passion for innovation and problem-solving."</br>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Mahendra's Portfolio</h3>
+            
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyright &#169; Mahendraportfolio.com | All rights are reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Data Scientist'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
